@@ -9,6 +9,12 @@ export class ProductComponent implements OnInit {
 
   constructor() { }
 
+  product = {
+    name: 'Product 1',
+    image: './assets/images/toy.jpg',
+    price: '100'
+  }
+
   ngOnInit(): void {
   }
 
