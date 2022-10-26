@@ -1,2 +1,4 @@
-<p>img works!</p>
-<h1>{{ img }}</h1>
+<img width="200" [src]="img" *ngif="img">
+<ng-template #elseImg>
+   <img src="./assets/images/default.png" alt="">
+</ng-template>
