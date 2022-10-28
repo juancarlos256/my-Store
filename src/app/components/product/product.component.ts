@@ -10,7 +10,12 @@ export class ProductComponent implements OnInit {
 
   constructor() { }
 
-  @Input() product: Product = {}
+  @Input() product: Product = {
+    id: '',
+    price: 0,
+    image: '',
+    name: ''
+  };
 
   ngOnInit(): void {
   }
