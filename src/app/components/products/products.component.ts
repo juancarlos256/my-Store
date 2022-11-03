@@ -9,7 +9,7 @@ import { Product } from '../../models/product.model';
 })
 export class ProductsComponent implements OnInit {
 
-  products: Product [] = [
+  products: Product[] = [
     {
       id: '1',
       name: 'EL mejor juguete',
@@ -35,7 +35,6 @@ export class ProductsComponent implements OnInit {
       image: './assets/images/books.jpg'
     },
   ];
-
 
   constructor() { }
 
